@@ -1,0 +1,20 @@
+.design {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.design {
+    /* padding: 20px; */
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.form-control,
+.btn {
+    margin: 5px;
+}
+
+.colour {
+    background-color: black;
+}
