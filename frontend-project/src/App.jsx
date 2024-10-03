@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path='/home' exact element={<Home />} />
+          <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/card' element={<Card />} />
           <Route path='/calculator' element={<Calculator />} />
@@ -27,7 +27,6 @@ function App() {
           <Route path='/LoanCalculator' element={<LoanCalculator />} />
           <Route path='/Weather' element={<Weather />} />
         </Routes>
-        {/* <WeatherExample /> */}
         <Footer />
       </BrowserRouter>
 
